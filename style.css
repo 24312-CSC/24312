@@ -5,23 +5,34 @@ body {
 
 h2, p {
   margin: 10px;
-}
+  text-align: center;
+  font: bold;
+  
 
+}
+.logo {
+  display: inline-block;
+  background-color: #8bc29f; /* box color */
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px; /* optional */
+  margin: 10px;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #8bc29f;
 }
 
 ul li {
-  float: left;
+  float: right;
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
