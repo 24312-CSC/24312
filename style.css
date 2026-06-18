@@ -1,16 +1,13 @@
 body {
-  margin: 0;
-  padding: 0;
+
 }
 
 h2, p {
   margin: 10px;
   text-align: center;
   font: bold;
-
-
-
 }
+
 .logo {
   display: inline-block;
   background-color: #8bc29f; /* box color */
@@ -41,4 +38,31 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+article {
+  width:30%;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.climate-image {
+  width: 40%;
+  height: auto;
+  border-radius: 10px; /* optional */
+}
+
+footer {
+  background-color: #8bc29f;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: larger;
 }
